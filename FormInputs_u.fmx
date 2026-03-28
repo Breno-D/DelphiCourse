@@ -1,0 +1,91 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 339
+  ClientWidth = 304
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lblName: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Name'
+    TabOrder = 2
+  end
+  object lblAge: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 108.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Age'
+    TabOrder = 1
+  end
+  object lblSurname: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 78.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Surname'
+    TabOrder = 0
+  end
+  object edtName: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 80.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 152.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnReset: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 168.000000000000000000
+    TabOrder = 4
+    Text = 'Reset'
+    TextSettings.Trimming = None
+    OnClick = btnResetClick
+  end
+  object btnEnglish: TButton
+    Position.X = 56.000000000000000000
+    Position.Y = 248.000000000000000000
+    TabOrder = 5
+    Text = 'English'
+    TextSettings.Trimming = None
+    OnClick = btnEnglishClick
+  end
+  object edtAge: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    KeyboardType = NumberPad
+    Position.X = 80.000000000000000000
+    Position.Y = 108.000000000000000000
+    EnableDragHighlight = False
+    Size.Width = 153.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtSurname: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    Position.X = 80.000000000000000000
+    Position.Y = 78.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnPortuguese: TButton
+    Position.X = 153.000000000000000000
+    Position.Y = 248.000000000000000000
+    TabOrder = 9
+    Text = 'Portugu'#234's'
+    TextSettings.Trimming = None
+    OnClick = btnPortugueseClick
+  end
+end
