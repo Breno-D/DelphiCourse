@@ -1,0 +1,37 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 297
+  ClientWidth = 198
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnDisplay: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 232.000000000000000000
+    TabOrder = 0
+    Text = 'Display'
+    TextSettings.Trimming = None
+    OnClick = btnDisplayClick
+  end
+  object lblOut: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 48.000000000000000000
+    Text = '------------'
+    TabOrder = 1
+  end
+  object memOut: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 32.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 114.000000000000000000
+    Size.Height = 109.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 110.000000000000000000
+    Viewport.Height = 105.000000000000000000
+  end
+end
