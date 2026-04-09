@@ -34,7 +34,7 @@ begin
 
 flag := checkBox.IsChecked;
 
-//to compare if 'flag = false'
+//if (flag = false) and (...)
 if flag then
   begin
     ShowMessage('Inside If');
