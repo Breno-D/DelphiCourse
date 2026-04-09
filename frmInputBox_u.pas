@@ -24,12 +24,14 @@ var
 implementation
 
 {$R *.fmx}
+Const
+questionConst = 'What is your Name?';
 
 procedure TForm1.btnPressMeClick(Sender: TObject);
 var
   nameVar : string;
 begin
-  nameVar := InputBox('Name','What is your Name?','carlos');
+  nameVar := InputBox('Name',questionConst,'carlos');
   edtBox.Text := nameVar;
 end;
 
