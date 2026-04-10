@@ -1,0 +1,34 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 291
+  ClientWidth = 369
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object edtInput: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 24.000000000000000000
+    Position.Y = 136.000000000000000000
+  end
+  object btnProcess: TButton
+    Position.X = 132.000000000000000000
+    Position.Y = 136.000000000000000000
+    TabOrder = 2
+    Text = 'Process'
+    TextSettings.Trimming = None
+    OnClick = btnProcessClick
+  end
+  object edtOutput: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 220.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
