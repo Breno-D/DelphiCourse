@@ -27,7 +27,8 @@ implementation
 
 procedure TForm1.btnLoopClick(Sender: TObject);
 var
-  i: integer;
+  i, vogCount: integer;
+  str: string;
 begin
   for i := 1 to 5 do
   begin
@@ -38,6 +39,20 @@ begin
   begin
     showmessage(inttostr(i));
   end;
+
+
+  str := 'hellooo';
+  vogCount := 0;
+  for i := 1 to length(str) do
+  begin
+        if str[i] in ['a', 'e', 'i', 'o', 'u'] then
+        begin
+          inc(vogCount);
+        end;
+
+  end;
+  showmessage('the number of vogals is: ' + intTostr(vogCount));
+
 end;
 
 end.
