@@ -44,7 +44,7 @@ begin
         showmessage('you found the right number!!!');
         // multi line case ex
       end;
-    4 .. 999:
+    4, 5, 6 .. 999:
       begin
         showmessage('your number is really big');
       end
