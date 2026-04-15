@@ -1,0 +1,16 @@
+﻿[Panel2]
+Coordinates=146,10,55,36
+
+[]
+Coordinates=154,1,91,36
+
+[btnEnter]
+Coordinates=77,10,59,58
+
+[imgSunflower]
+Coordinates=10,10,57,58
+Visible=True
+
+[pnl1]
+Coordinates=10,78,55,36
+
