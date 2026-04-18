@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 278
+  ClientWidth = 374
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnRead: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Read File'
+    TextSettings.Trimming = None
+    OnClick = btnReadClick
+  end
+  object edtOutput: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 160.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 129.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
