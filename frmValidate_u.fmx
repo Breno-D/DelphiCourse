@@ -1,0 +1,34 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 203
+  ClientWidth = 224
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object edtMonth: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 96.000000000000000000
+    Position.Y = 80.000000000000000000
+    object Label1: TLabel
+      Position.X = -72.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Month:'
+      TabOrder = 0
+    end
+  end
+  object btnValidate: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 152.000000000000000000
+    TabOrder = 1
+    Text = 'Validate'
+    TextSettings.Trimming = None
+    OnClick = btnValidateClick
+  end
+end
