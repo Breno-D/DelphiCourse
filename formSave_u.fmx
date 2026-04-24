@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 199
+  ClientWidth = 249
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object edtName: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 64.000000000000000000
+    Position.Y = 40.000000000000000000
+  end
+  object edtPassword: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 64.000000000000000000
+    Position.Y = 70.000000000000000000
+  end
+  object Name: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Name'
+    TabOrder = 2
+  end
+  object Password: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 70.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Password'
+    TabOrder = 3
+  end
+  object btnLogin: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 144.000000000000000000
+    TabOrder = 4
+    Text = 'Log In'
+    TextSettings.Trimming = None
+    OnClick = btnLoginClick
+  end
+  object btnLogout: TButton
+    Position.X = 120.000000000000000000
+    Position.Y = 144.000000000000000000
+    TabOrder = 5
+    Text = 'Log Out'
+    TextSettings.Trimming = None
+    OnClick = btnLogoutClick
+  end
+end

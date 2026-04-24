@@ -26,10 +26,15 @@ implementation
 {$R *.fmx}
 
 procedure TForm1.btnReadClick(Sender: TObject);
+var
+tfile: textfile;
+
 begin
 edtOutPut.Text := '';
+assignfile(textfile, '../../test.txt');
 
-edtOutPut.Text.LoadFromFile();
+
+
 end;
 
 end.
